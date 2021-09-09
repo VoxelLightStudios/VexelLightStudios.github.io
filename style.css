@@ -45,6 +45,7 @@ html {
 
                                                           a {
                                                             text-decoration: none;
+                                                            transition: color 0.5s;
                                                             }
                                                             a:hover {
                                                               color: #ff8000;
@@ -83,6 +84,12 @@ html {
                                                                                             background-color: #f8f8f8;
                                                                                               border-radius: 0.5rem;
                                                                                                 margin: 1rem;
+                                                                                                
+                                                                                                 width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  
+
                                                                                                 }
                                                                                                 .card-body {
                                                                                                   padding: 1rem;
@@ -99,5 +106,13 @@ html {
                                                                                                           margin: 0.1rem;
                                                                                                           }
                                                                                                           
-
+                                                                                                          div.card {
+  width: 260px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+transition: width 1s;
+}
+div.card:hover{
+ width: 280px;
+}
 
